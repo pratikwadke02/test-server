@@ -1,8 +1,8 @@
 module.exports = {
-    host: 'localhost',
-    user: 'root',
-    password: 'pratik02',
-    database: 'dental_home_task',
+    host: process.env.HOST,
+    user: process.env.USER,
+    password: process.env.PASSWORD,
+    database: process.env.DATABASE,
     dialect: 'mysql',
     pool: {
         max: 5,
